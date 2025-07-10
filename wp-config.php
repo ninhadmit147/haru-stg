@@ -58,6 +58,8 @@ define('SECURE_AUTH_SALT', 'ft|M5J)Wd~[[UJ^0S1[}< SJ^M4z86duqDNHOZ!(c!qg?kTc2+%(
 define('LOGGED_IN_SALT',   'yd=b()KO`a@&*NViWE[K+ MTAEbU46BbWD&#FOZc]]A=AgYO$EWis$1l:/Xxnh>4');
 define('NONCE_SALT',       'JX?:Y;pD*Xhvur)02F9&xb@5(3jf_Q9kSY]a[sb],8=M,AJ6!8`basydA p0(Qh|');
 
+define('FS_METHOD', 'direct');
+
 /**#@-*/
 
 /**
