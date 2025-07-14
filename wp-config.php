@@ -21,7 +21,7 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'haru');
+define('DB_NAME', 'haru-stg');
 
 /** Database username */
 define('DB_USER', 'adminer');
@@ -49,16 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '=3y<fO0+`egHNd4Kvr|>~PkKVfMdiTp]vqi^b+%3mQ,3e^mtTn(l6g J3c{Ot=Lv');
-define('SECURE_AUTH_KEY',  '_h7^(m6r`#LR9,^sS8jcAw>ug]Op|8>,=SamFm2%9}K<i1McLY3y%[n0Oqvt![27');
-define('LOGGED_IN_KEY',    'Q@UUEcb |RH]*z?M/zOG0G}2-Wv},/Eih]q!J#^dfj2gs~]`{HlM!Q7_[s#a-q#Q');
-define('NONCE_KEY',        '=nw^2pgiO[-/KPnQ1YzZE.}!Yn*aXt!Y]@-]^FN>doGMq>2F8;r3+L_Q&N)y]ZLq');
-define('AUTH_SALT',        '&DmjOEuv75c|glTd)m)LFTd|fS-WQ`$=. MBMk<6 v+A8uL&WY*F1m=w+ov(#aOQ');
-define('SECURE_AUTH_SALT', 'ft|M5J)Wd~[[UJ^0S1[}< SJ^M4z86duqDNHOZ!(c!qg?kTc2+%(Vx[$PtxuUj8o');
-define('LOGGED_IN_SALT',   'yd=b()KO`a@&*NViWE[K+ MTAEbU46BbWD&#FOZc]]A=AgYO$EWis$1l:/Xxnh>4');
-define('NONCE_SALT',       'JX?:Y;pD*Xhvur)02F9&xb@5(3jf_Q9kSY]a[sb],8=M,AJ6!8`basydA p0(Qh|');
-
-define('FS_METHOD', 'direct');
+define('AUTH_KEY',         'put your unique phrase here');
+define('SECURE_AUTH_KEY',  'put your unique phrase here');
+define('LOGGED_IN_KEY',    'put your unique phrase here');
+define('NONCE_KEY',        'put your unique phrase here');
+define('AUTH_SALT',        'put your unique phrase here');
+define('SECURE_AUTH_SALT', 'put your unique phrase here');
+define('LOGGED_IN_SALT',   'put your unique phrase here');
+define('NONCE_SALT',       'put your unique phrase here');
 
 /**#@-*/
 
@@ -74,7 +72,7 @@ define('FS_METHOD', 'direct');
  *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_haru';
+$table_prefix = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
